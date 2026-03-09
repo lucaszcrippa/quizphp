@@ -1,0 +1,130 @@
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-image: url("img/fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    margin:0;
+    padding:0;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("img/fundo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* caixa central */
+
+.container{
+    background: rgba(0,0,0,0.75);
+    width: 60%;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0,188,212,0.6);
+}
+
+/* títulos */
+
+h1{
+    font-size: 40px;
+    color:#00e5ff;
+    margin-bottom:20px;
+    animation: aparecer 1.5s;
+}
+
+h2{
+    color:#00e5ff;
+}
+
+/* perguntas */
+
+h3{
+    margin-top:25px;
+}
+
+/* inputs */
+
+input[type="text"]{
+    padding:10px;
+    width:250px;
+    border:none;
+    border-radius:6px;
+    margin-top:10px;
+}
+
+/* radio */
+
+input[type="radio"]{
+    margin-top:10px;
+}
+
+/* botão */
+
+button{
+    background: linear-gradient(45deg,#00bcd4,#00e5ff);
+    border:none;
+    padding:12px 25px;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 15px #00e5ff;
+}
+
+/* botão link */
+
+.botao{
+    display:inline-block;
+    background: linear-gradient(45deg,#00bcd4,#00e5ff);
+    padding:12px 25px;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-top:25px;
+    transition:0.3s;
+}
+
+.botao:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 15px #00e5ff;
+}
+
+/* imagem resultado */
+
+img{
+    margin-top:25px;
+    border-radius:12px;
+    box-shadow:0px 0px 20px rgba(0,188,212,0.8);
+}
+
+/* descrição */
+
+.desc{
+    width:70%;
+    margin:auto;
+    margin-top:20px;
+    line-height:1.6;
+}
+
+/* animação */
+
+@keyframes aparecer{
+
+from{
+opacity:0;
+transform:translateY(-20px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
